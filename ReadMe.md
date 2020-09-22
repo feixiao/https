@@ -11,6 +11,7 @@
 ```
 brew install mkcert
 mkcert -key-file key.pem -cert-file cert.pem  *.mmc.com
+mkcert -install
 ```
 
 注：windows系统上面根证书(类似： *.xxx.com)无效、osx上面没有问题。
